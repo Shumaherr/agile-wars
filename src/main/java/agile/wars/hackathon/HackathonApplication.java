@@ -6,7 +6,12 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class HackathonApplication {
+public class HackathonApplication extends SpringBootServletInitializer {
+
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		return application.sources(HackathonApplication.class);
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(HackathonApplication.class, args);

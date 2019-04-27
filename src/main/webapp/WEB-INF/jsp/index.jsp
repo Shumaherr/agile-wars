@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>User</title>
+    <style type="text/css" href="../static/main.css" />
 </head>
 <body>
 
