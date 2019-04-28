@@ -7,3 +7,12 @@ values(2, 'уууa', 'ууууу', 'ввввва', 'кепп', 'пппп', 'ап
 
 insert into item
 values(22, 'name333', '//аааа', '+', '3' );
+
+insert into item
+values(23, 'her', '//ffff', '+', '55' );
+
+insert into useritemtmp
+values(1, 22,  1);
+
+insert into useritemtmp
+values(2, 23,  1);
