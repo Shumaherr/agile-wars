@@ -3,8 +3,13 @@ body {
     background-position: left bottom;
     background-repeat: repeat;
     text-decoration-color: white;
+    font-family: SW;
 }
 
+@font-face {
+    font-family: SW; /* Гарнитура шрифта */
+    src: url(../fonts/sw.ttf); /* Путь к файлу со шрифтом */
+}
 .wrapper {
     display: grid;
     grid-template-columns: 30% 30%;
@@ -20,6 +25,11 @@ h1 {
     color: white;
 }
 
+p {
+    text-decoration-color: white;
+    color: white;
+}
+
 #body {
     grid-area: b;
 
@@ -28,6 +38,7 @@ h1 {
 #text {
     grid-area: t;
     border: 1px solid gold;
+    padding: 5px;
 }
 #item {
     grid-area: it;

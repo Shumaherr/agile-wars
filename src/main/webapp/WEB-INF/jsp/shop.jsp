@@ -15,9 +15,14 @@
 </head>
 <body>
 <div class="wrapper">
-<div id="body" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="../../resources/img/uotto.png"></div>
-<div id="text" ondrop="drop(event)" ondragover="allowDrop(event)">Sword</div>
-<div id="item" ondrop="drop(event)" ondragover="allowDrop(event)">Boots</div>
+<div id="body"><img src="../../resources/img/uotto.png"></div>
+<div id="text"><h1>Приветствую тебя, ${User.nickName}</h1><p>Как насчет ГИГА шлем Джа-Джа Бинкса за 117 кредитов? </p>
+    <img src="../../resources/img/helmet1.png" height="100px" width="100px" title="ГИГА шлем Джа-Джа Бинкса"></div>
+<div id="item" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src="../../resources/img/blaster1.png" height="90px" width="90px">
+    <img src="../../resources/img/saber2.png" height="90px" width="90px">
+
+</div>
 </div>
 </body>
 </html>

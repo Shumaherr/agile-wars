@@ -25,8 +25,11 @@ public class WarsController {
     }
 
     @GetMapping("/shop")
-    String getShop() {
-        return "shop";
+    ModelAndView getShop() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("User", userService.getUserById(1));
+        modelAndView.setViewName("shop");
+        return modelAndView;
     }
 
     @GetMapping("/map")

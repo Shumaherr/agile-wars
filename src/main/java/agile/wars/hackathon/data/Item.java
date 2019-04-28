@@ -34,4 +34,6 @@ public class Item {
     @Column(name = "bonusValue")
     private String bonusValue;
 
+    @OneToMany(mappedBy = "itemid")
+    private Set<UserItemTmp> userItemTmps;
 }
