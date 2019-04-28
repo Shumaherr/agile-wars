@@ -3,6 +3,12 @@ body {
     background-position: left bottom;
     background-repeat: repeat;
     text-decoration-color: white;
+    font-family: SW;
+}
+
+@font-face {
+    font-family: SW; /* Гарнитура шрифта */
+    src: url(../fonts/sw.ttf); /* Путь к файлу со шрифтом */
 }
 
 .wrapper {
@@ -65,5 +71,6 @@ h3 {
 #info {
     grid-area: inf;
     border: 1px solid gold;
+    padding: 5px;
 }
 
