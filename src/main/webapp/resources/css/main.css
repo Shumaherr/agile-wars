@@ -20,6 +20,10 @@ h1 {
     color: white;
 }
 
+h3 {
+    color: white;
+}
+
 #body {
     grid-area: b;
 

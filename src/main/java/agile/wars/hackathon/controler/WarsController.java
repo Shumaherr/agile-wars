@@ -23,4 +23,9 @@ public class WarsController {
         return "map";
     }
 
+    @GetMapping("/profile")
+    String getProfile() {
+        return "profile";
+    }
+
 }
