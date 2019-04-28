@@ -31,6 +31,9 @@
         <img id="hand" height="90px" width="90px"  src="../../resources/img/fastandfurious.png" title="Самая быстрая рука Мос-Айсли">
     </div>
     <div id="info">
+        <div id="lvl"><h3>Уровень: ${User.level} </h3></div>
+        <div id="exp"><h3>Experience: ${User.experience} </h3></div>
+        <div id="mon"><h3>Money: ${User.money} </h3></div>
         <div id="stre"><h3>Сила:<%= calcForAnal(1,1,1,1,1,1)[0] %></h3></div>
         <div id="inte"><h3>Интеллект:<%= calcForAnal(1,1,1,1,1,1)[1] %></h3></div>
         <div id="agil"><h3>Ловкость:<%= calcForAnal(1,1,1,1,1,1)[2] %></h3></div>
