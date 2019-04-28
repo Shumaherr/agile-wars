@@ -20,7 +20,6 @@ public class WarsController {
     @GetMapping("/")
     public ModelAndView getStartIndex() {
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("User", userService.getUserById(1));
         modelAndView.setViewName("index");
         return modelAndView;
     }
@@ -36,8 +35,11 @@ public class WarsController {
     }
 
     @GetMapping("/profile")
-    String getProfile() {
-        return "profile";
+    ModelAndView getProfile() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("User", userService.getUserById(1));
+        modelAndView.setViewName("profile");
+        return modelAndView;
     }
 
 }

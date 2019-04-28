@@ -15,15 +15,17 @@
 </head>
 <body>
 
-<h1>Welcome to Wars </h1>
+<h1>Welcome to Agile Wars, ${User.nickName} </h1>
 
 <div class="wrapper">
-    <div id="eqip1" ondrop="drop(event)" ondragover="allowDrop(event)">Hat</div>
-    <div id="eqip2" ondrop="drop(event)" ondragover="allowDrop(event)">Sword</div>
-    <div id="eqip3" ondrop="drop(event)" ondragover="allowDrop(event)">Boots</div>
+    <div id="eqip1" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag2" height="90px" width="90px" draggable="true" ondragstart="drag(event)"
+                                                                            src="../../resources/img/helmet2.png"></div>
+    <div id="eqip2" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag3" height="90px" width="100px" draggable="true" ondragstart="drag(event)"
+                                                                            src="../../resources/img/blaster1.png"></div>
+    <div id="eqip3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
     <div id="body"><img src="../../resources/img/jedi-f.png"></div>
     <div id="money">Money</div>
-    <div id="inventory"><img id="drag1" height="90px" width="90px" draggable="true" ondragstart="drag(event)"
+    <div id="inventory"  ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag1" height="90px" width="90px" draggable="true" ondragstart="drag(event)"
                              src="../../resources/img/saber1.png"></div>
     <div id="achieves">
         <img id="hand" height="90px" width="90px"  src="../../resources/img/fastandfurious.png" title="Самая быстрая рука Мос-Айсли">
