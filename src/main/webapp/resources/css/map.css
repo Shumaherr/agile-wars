@@ -2,9 +2,13 @@ body {
     background-image: url("../img/stars.jpg");
     background-position: left bottom;
     background-repeat: repeat;
-    text-decoration-color: white;
+    font-family: SW;
 }
 
+@font-face {
+    font-family: SW; /* Гарнитура шрифта */
+    src: url(../fonts/sw.ttf); /* Путь к файлу со шрифтом */
+}
 .wrapper {
     display: grid;
     grid-template-columns: 10% 10% 20% 30%;
