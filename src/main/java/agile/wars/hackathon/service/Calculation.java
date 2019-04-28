@@ -32,5 +32,5 @@ public class Calculation {
         return output;
     }
 
-    
+
 }
