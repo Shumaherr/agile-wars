@@ -7,19 +7,13 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 10% 10% 20% 30%;
+    grid-template-rows: 33% 33% 33% ;
     grid-template-areas:
-            "p1 e e p2"
-            "e e p3 e"
-            "p4 p4 e e"
-            "p4 p4 e7 p5"
-            "e e p6 e";
-    grid-gap: 10px;
-}
-
-h1 {
-    color: white;
+            "p1 e p6 p4"
+            "p2 e p5 p5"
+            "p3 e p5 p5";
+    grid-gap: 50px;
 }
 
 #empty {
@@ -27,24 +21,27 @@ h1 {
 }
 
 #planet1 {
-    grid-area: e;
+    grid-area: p1;
 }
 
 #planet2 {
-    grid-area: e;
+    grid-area: p2;
 }
 
 #planet3 {
-    grid-area: e;
+    grid-area: p3;
 }
+
 #planet4 {
-    grid-area: e;
+    grid-area: p4;
 }
+
 #planet5 {
-    grid-area: e;
+    grid-area: p5;
 }
+
 #planet6 {
-    grid-area: e;
+    grid-area: p6;
 }
 
 
