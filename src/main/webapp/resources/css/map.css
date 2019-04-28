@@ -1,0 +1,51 @@
+body {
+    background-image: url("../img/stars.jpg");
+    background-position: left bottom;
+    background-repeat: repeat;
+    text-decoration-color: white;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas:
+            "p1 e e p2"
+            "e e p3 e"
+            "p4 p4 e e"
+            "p4 p4 e7 p5"
+            "e e p6 e";
+    grid-gap: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+#empty {
+    grid-area: e;
+}
+
+#planet1 {
+    grid-area: e;
+}
+
+#planet2 {
+    grid-area: e;
+}
+
+#planet3 {
+    grid-area: e;
+}
+#planet4 {
+    grid-area: e;
+}
+#planet5 {
+    grid-area: e;
+}
+#planet6 {
+    grid-area: e;
+}
+
+
+

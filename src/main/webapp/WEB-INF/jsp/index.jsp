@@ -9,9 +9,16 @@
 <html>
 <head>
     <title>User</title>
+    <link rel="stylesheet" type="text/css" href="/resources/css/main.css"/>
+    <script src="/resources/js/dragndrop.js"></script>
+
 </head>
 <body>
 
 <h1>Welcome to Wars </h1>
+
+<div class="wrapper">
+
+</div>
 </body>
 </html>

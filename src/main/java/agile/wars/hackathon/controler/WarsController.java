@@ -13,4 +13,14 @@ public class WarsController {
         return "index";
     }
 
+    @GetMapping("/shop")
+    String getShop() {
+        return "shop";
+    }
+
+    @GetMapping("/map")
+    String getMap() {
+        return "map";
+    }
+
 }
