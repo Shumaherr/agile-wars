@@ -34,6 +34,4 @@ public class Item {
     @Column(name = "bonusValue")
     private String bonusValue;
 
-    @ManyToMany
-    Set<User> likes;
 }
