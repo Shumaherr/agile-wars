@@ -4,5 +4,5 @@ import agile.wars.hackathon.data.User;
 
 public interface UserService {
 
-    User getUserById(long Id);
+    User getUserById(long id);
 }
