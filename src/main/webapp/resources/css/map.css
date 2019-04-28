@@ -20,6 +20,10 @@ body {
     grid-gap: 50px;
 }
 
+#back {
+    margin-bottom: 30px;
+}
+
 #empty {
     grid-area: e;
 }

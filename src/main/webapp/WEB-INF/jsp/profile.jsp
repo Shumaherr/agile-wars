@@ -24,7 +24,7 @@
                                                                             src="../../resources/img/blaster1.png"></div>
     <div id="eqip3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
     <div id="body"><img src="../../resources/img/jedi-f.png"></div>
-    <div id="money">Money</div>
+    <div id="money"> <div id="mon"><h3>Credits: ${User.money} </h3></div></div>
     <div id="inventory"  ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag1" height="90px" width="90px" draggable="true" ondragstart="drag(event)"
                              src="../../resources/img/saber1.png"></div>
     <div id="achieves">
@@ -33,7 +33,7 @@
     <div id="info">
         <div id="lvl"><h3>Уровень: ${User.level} </h3></div>
         <div id="exp"><h3>Experience: ${User.experience} </h3></div>
-        <div id="mon"><h3>Money: ${User.money} </h3></div>
+
         <div id="stre"><h3>Сила:<%= calcForAnal(1,1,1,1,1,1)[0] %></h3></div>
         <div id="inte"><h3>Интеллект:<%= calcForAnal(1,1,1,1,1,1)[1] %></h3></div>
         <div id="agil"><h3>Ловкость:<%= calcForAnal(1,1,1,1,1,1)[2] %></h3></div>

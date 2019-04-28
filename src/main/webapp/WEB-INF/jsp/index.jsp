@@ -18,7 +18,9 @@
 <h1>Welcome to Wars </h1>
 
 <div class="wrapper">
-
+    <a href="/profile">Profile</a>
+    <a href="/map">Map</a>
+    <a href="/top">Top</a>
 </div>
 </body>
 </html>

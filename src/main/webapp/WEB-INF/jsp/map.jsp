@@ -12,8 +12,9 @@
     <link rel="stylesheet" type="text/css" href="/resources/css/map.css"/>
 </head>
 <body>
+<div id="back"><a title="На главную" href="/"><img width="100px" src="../../resources/img/back.png"></a></div>
 <div class="wrapper">
-    <div id="planet1"><img height="100px" width="100px" src="../../resources/img/tatoo.png"></div>
+    <div id="planet1"><a title="Татуин" href="/shop"><img height="100px" width="100px" src="../../resources/img/tatoo.png"></a></div>
     <div id="planet2"><img height="100px" width="100px" src="../../resources/img/ald.png"></div>
     <div id="planet3"><img height="100px" width="100px" src="../../resources/img/hoth.png"></div>
     <div id="planet4"><img height="100px" width="100px" src="../../resources/img/kamino.png"></div>
