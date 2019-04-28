@@ -1,6 +1,5 @@
 package agile.wars.hackathon.Service;
 
-import agile.wars.hackathon.data.Item;
 import agile.wars.hackathon.data.User;
 import agile.wars.hackathon.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
