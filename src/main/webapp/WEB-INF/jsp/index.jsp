@@ -9,7 +9,8 @@
 <html>
 <head>
     <title>User</title>
-<link rel = "stylesheet" type = "text/css" href = "/resources/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/main.css"/>
+    <script src="/resources/js/dragndrop.js"></script>
 
 </head>
 <body>
@@ -17,14 +18,7 @@
 <h1>Welcome to Wars </h1>
 
 <div class="wrapper">
- <div id="eqip1">Hat</div>
- <div id="eqip2">Sword</div>
- <div id="eqip3">Boots</div>
- <div id="body">Body</div>
- <div id="money">Money</div>
- <div id="inventory">inven</div>
- <div id="achieves">ach</div>
- <div id="info">Info</div>
+
 </div>
 </body>
 </html>
