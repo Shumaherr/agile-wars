@@ -1,6 +1,8 @@
 
 insert into user
-values(1, 'Ranga', 'E1234567', 'ultraGigaLiga', 'Ranga', 'E1234567', 'ultraGigaLiga','945', '12' );
+
+values(1, '945', 'Doe', '', '80', '980', 'UltraGigaLiga','945', '12' );
+
 
 insert into user
 values(2, 'уууa', 'ууууу', 'ввввва', 'кепп', 'пппп', 'апапрр','ролол', 'пппппппп' );
