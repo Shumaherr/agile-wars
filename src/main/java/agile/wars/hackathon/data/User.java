@@ -43,10 +43,7 @@ public class User {
     @Column(name = "money")
     private String money;
 
-    @ManyToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "UserItemTmp",
-            joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
-            inverseJoinColumns = @JoinColumn(name = "item_id", referencedColumnName = "id"))
-    private Set<Item> item;
+    @OneToMany(mappedBy = "userid")
+    private Set<UserItemTmp> userItemTmps;
 
 }
